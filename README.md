@@ -19,7 +19,7 @@ We tell the init system to only start this after the networking target has been 
 We will define www-data group so that it can communicate easily with the Gunicorn processes.
 
 start and enable Gunicorn service:
-sudo systemctl start flaskapp
+sudo systemctl start flaskapp ; 
 sudo systemctl enable flaskapp
 
 Install and Configure Nginx:
